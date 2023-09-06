@@ -1,0 +1,18 @@
+.box {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 12px;
+    border: 2px solid blueviolet;
+
+}
+
+.box .image {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(me.jpg);
+    cursor: pointer;
+}
